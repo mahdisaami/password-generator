@@ -16,3 +16,8 @@ The password generator uses the Python `random` module to generate passwords bas
 
 Each generator class inherits from a base `PasswordGenerator` class. They each override the base class's `generate()` method in order to provide their own unique password generation functionality.
 
+## How to Use
+
+```bash
+streamlit run app.py
+```
